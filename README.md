@@ -20,8 +20,8 @@ The repository is structured as follows:
 │
 │	
 ├── apps      <- Folder containing the source code of all AI-enabled mobile applications
-│	    ├── ImageClassificationUnity
-│		  ├── TextClassificationUnity
+│       ├── ImageClassificationUnity
+│       ├── TextClassificationUnity
 │		  
 │
 │
