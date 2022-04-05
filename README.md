@@ -5,29 +5,24 @@ This repository contains the replication package for the paper "Which Design Dec
 The repository is structured as follows:
 
 ```
-├── README.md       <- The top-level README for developers using this project.
+├── README.md     <- The top-level README for developers using this project.
 ├── data
-│       ├── accuracy tests        <- Contains the data used for systematically measuring the accuracy during the system operation phase
-│       ├── dictionaries          <- Contains the word-to-int mapping learnt by the language models
-│   	  └── results               <- Contains the analysis datasets with information of the AI models configuration and metrics on their performance
+│       ├── accuracy tests      <- Contains the data used for systematically measuring the accuracy during the system operation phase
+│       ├── dictionaries      <- Contains the word-to-int mapping learnt by the language models
+│   	  └── results     <- Contains the analysis datasets with information of the AI models configuration and metrics on their performance
 │                  ├── image      
 │                  └── text
 │
 ├── src	
-│      ├── notebooks              <- Contains all the source code for developing the AI models for all vision and language domains (used as Kaggle notebooks)
+│      ├── notebooks      <- Contains all the source code for developing the AI models for all vision and language domains (used as Kaggle notebooks)
 │                   ├── image      
 │                   ├── text      
 │
 │	
-├── unity project  	   <- Application Project source code
-│	    ├── project
-│		  ├── assets
-│		  ├── library
-│		  ├── logs
-│		  ├── packages
-│		  ├── project settings
-│		  └── temp
-│	   ├── builds		<- Application Builds
+├── apps      <- Folder containing the source code of all AI-enabled mobile applications
+│       ├── ImageClassificationUnity
+│       ├── TextClassificationUnity
+│		  
 │
 │
 ```
