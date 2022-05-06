@@ -1,5 +1,7 @@
 # Which-Design-Decisions-in-AI-enabled-MobileApplications-Contribute-to-Greener-AI
 
+[![DOI](https://zenodo.org/badge/459549677.svg)](https://zenodo.org/badge/latestdoi/459549677)
+
 This repository contains the replication package for the paper "Which Design Decisions in AI enabled Mobile Applications Contribute to Greener AI" developed by Roger Creus Castanyer, Silverio Martínez-Fernández and Xavier Franch and accepted as an empirical confirmatory study at EMSE 2022. 
 
 The repository is structured as follows:
