@@ -20,7 +20,7 @@ full_emb = rbind(twitter_data_emb, imdb_data_emb, amazon_data_emb)
 ## FULL DATA PLOT (RTP-P) 
 ggplot(full, aes(x=P, y=RTP, color = D, shape = AT)) +
   geom_point(size = 4) +
-  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+theme_bw()
+  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+ labs(y = "M", x = "P")+theme_bw()
 
 
 ## RTP - P CNN DATA
@@ -30,13 +30,13 @@ ggplot(full_nn, aes(x=P, y=RTP, color = D, shape = AT, size = 3)) +
 
 ggplot(full_emb, aes(x=P, y=RTP, color = D, shape = AT, size = 3)) +
   geom_point(size = 4) +
-  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+theme_bw()
+  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+ labs(y = "M", x = "P")+theme_bw()
 
 
 ## FULL DATA PLOT (SW-P)
 ggplot(full, aes(x=P, y=SW, color = D, shape = AT, size = 3)) +
   geom_point(size = 4) +
-  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+theme_bw()
+  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+ labs(y = "M", x = "P")+theme_bw()
 
 ## FULL DATA PLOT (ACC-P)
 ggplot(full, aes(x=P, y=A,color = D, shape = AT, size = 3)) +

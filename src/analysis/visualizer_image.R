@@ -24,9 +24,9 @@ ggplot(full, aes(x=P, y=RTP, color = D, shape = AT)) +
 
 
 ## RTP - P CNN DATA
-ggplot(full_cnn, aes(x=P, y=RTP, color = AT, size = 3, shape= D)) +
+ggplot(full_cnn, aes(x=P, y=RTP, color = D, shape= AT)) +
   geom_point(size = 4) +
-  geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+theme_bw()
+  geom_smooth(method=lm,formula= (y ~ exp(x/1000000)), se = FALSE, size = 1)+theme_bw()
 
 ggplot(full_dense, aes(x=P, y=RTP, color = AT, size = 3, shape= D)) +
   geom_point(size = 4) +
@@ -52,4 +52,3 @@ ggplot(full_cnn, aes(x=P, y=A, color = AT, size = 3, shape= D)) +
 ggplot(full_dense, aes(x=P, y=A, color = AT, size = 3, shape= D)) +
   geom_point(size = 4) +
   geom_smooth(method=lm,formula= (y ~ x), se = FALSE, size = 1)+theme_bw()
-

@@ -1,0 +1,15 @@
+"","AT","P","D","SW","EXTENSION","A","RTP"
+"1","LSTM",2906419,"Twitter",11.09,"baseline",85.71,87
+"2","LSTM",2970551,"Twitter",11.34,"nn",82.14,94
+"3","LSTM",3098216,"Twitter",11.82,"nn",82.14,94
+"4","LSTM",3424471,"Twitter",13.71,"nn",50,94
+"5","LSTM",8717831,"Twitter",33.26,"emb",85.71,87
+"6","LSTM",18597925,"Twitter",70.95,"emb",82.14,87
+"7","LSTM",37195749,"Twitter",141.89,"emb",82.14,87
+"8","Transformer",2906625,"Twitter",11.55,"baseline",78.57,274
+"9","Transformer",2907367,"Twitter",11.56,"nn",85.71,274
+"10","Transformer",2909355,"Twitter",11.58,"nn",50,274
+"11","Transformer",2915347,"Twitter",11.62,"nn",50,274
+"12","Transformer",8722265,"Twitter",34.66,"emb",85.71,274
+"13","Transformer",18616197,"Twitter",73.97,"emb",67.85,274
+"14","Transformer",37265157,"Twitter",148.07,"emb",60.71,274
