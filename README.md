@@ -7,9 +7,9 @@ The repository is structured as follows:
 ```
 ├── README.md     <- The top-level README for developers using this project.
 ├── data
-│       ├── accuracy tests      <- Contains the data used for systematically measuring the accuracy during the system operation phase
+│       ├── accuracy tests    <- Contains the data used for systematically measuring the accuracy during the system operation phase
 │       ├── dictionaries      <- Contains the word-to-int mapping learnt by the language models
-│   	  └── results     <- Contains the analysis datasets with information of the AI models configuration and metrics on their performance
+│   	  └── results           <- Contains the analysis datasets with information of the AI models configuration and metrics on their performance
 │                  ├── image      
 │                  └── text
 │
